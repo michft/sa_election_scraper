@@ -26,5 +26,5 @@ for i in range(701,748):
             # There is a better way, it's 1am and this is clean enough.
             print(tabledata ,', ', end=' ')
           else:
-            print(tabledata.get_text().replace('\n', ' ' ) , ', ', end=' ' )
+            print(tabledata.get_text().replace('\n', ' ' ).replace(',','') , ', ', end=' ' )
         print()
